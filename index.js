@@ -95,8 +95,6 @@ function hugeFunction() {
 
     console.log(a + b + c + d + e + f + g + h + i + j);
 }
-
-// logic bug
 function isEven(num) {
     if (num % 2 = 0) {
         return true;
