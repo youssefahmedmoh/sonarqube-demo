@@ -73,13 +73,11 @@ function test(value) {
         console.log("Still one");
     }
 }
-
 // empty catch block (bad practice)
 try {
     let x = undefinedVariable;
 } catch (e) {
 }
-
 // long function (code smell)
 function hugeFunction() {
     let a = 1;
@@ -92,7 +90,6 @@ function hugeFunction() {
     let h = 8;
     let i = 9;
     let j = 10;
-
     console.log(a + b + c + d + e + f + g + h + i + j);
 }
 function isEven(num) {
@@ -101,7 +98,6 @@ function isEven(num) {
     }
     return false;
 }
-
 // missing return path
 function getStatus(user) {
     if (user.active) {
